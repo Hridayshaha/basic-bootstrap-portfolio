@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Poppins', sans-serif!important;
+}
+a{
+	text-decoration : none!important;
+}
+.menu_custom{
+	box-shadow: 2px 2px 10px #ececec;
+}
+
+/** Service section Css**/
+.service_section , .service_section2 , .parter-section{
+	padding: 100px 0;
+}
+@media (max-width: 767px){
+	.service_section , .service_section2 , .parter-section{
+		padding: 60px 0;
+	}
+	.service_head h1{
+		font-size: 30px!important;
+	}
+	.service_head h6{
+    font-size: 16px!important;
+	}
+	.services_option h3{
+    font-size: 20px!important;
+	}
+	.services_option p{
+    font-size: 12px!important;
+	}
+}
+.service_head{}
+.service_head h6{
+    font-size: 20px;
+    color: #007eff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.service_head h1{
+    color: #444444;
+    font-size: 40px;
+    font-weight: 400;
+}
+.services_option{
+	padding: 15px;
+}
+.services_option img , .service_section2 img{
+    width: 120px;
+}
+.services_option h3{
+    font-size: 25px;
+    padding: 15px 0;
+    margin: 0px;
+}
+.services_option p{
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5em;
+}
+.service_section2 h3{
+	font-size: 25px;
+    padding: 15px 0;
+    margin: 0px;
+}
+.service_section2 p{
+	font-size: 15px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5em;
+}
+.partner_section{
+	text-align: center;
+}
+@media (max-width: 767px){
+	.partners-leftcontent h1{
+		font-size: 40px!important;	
+	}
+	.partners-leftcontent h3{
+		font-size: 18px!important;
+	}
+}
+
+.partners-leftcontent{
+
+}
+.partners-leftcontent h3{
+	color: #0062cc;
+	font-size: 24px;
+}
+.partners-leftcontent h1{
+	font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/**
+	Footer Css
+**/
+.heading_li{
+	font-size: 25px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+.footer_ul ul{}
+.footer_ul ul li{
+
+}
+.footer_ul ul li a{
+	color:#444!important;
+	font-weight: 200;
+}
+.footer_ul ul li a:hover{
+	font-weight: 300;
+}
+.footer_copytight a{
+	font-weight: 300;
+	color: #fff!important;
+	font-size: 15px;
+}
